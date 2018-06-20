@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaJam Home</title>
+    <link rel="stylesheet" type="text/css" href="css\javacoffee.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    
+    <script type="text/Javascript" src="jobs.js"></script>
+
+</head>
+
+<body id="wrapper">
+    <section class="row">
+        <div id="navContainer" class="col-xs-12 col-md-3 col-lg-2">
+            <img src="images/javajamlogo.jpg" width="100%" alt="">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="music.html">Music</a></li>
+                    <li><a href="jobs.html">Jobs</a></li>
+                    <li><a href="gear.php">Gear</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="col-xs-12 col-md-9 col-lg-10">
+            <section>
+                <header id="jobsHeader">
+                    <h1>JavaJam Coffee House</h1>
+                </header>
+            </section>
+            <main>
+                <article>
+                    <section>
+                        <h2 id="menuH2">Jobs at JavaJam</h2>
+                    </section>
+                    <section class="musicData">
+                        <p>Want to work at JavaJam? Fill out the form below to start your application. Required
+                        fields are marked with (*).</p>
+                    </section>
+                    <section>
+                        <form>
+                            <div class="row">
+                                <div class="col-xs-12 col-md-3 col-lg-1 text-right"><label>*Name:</label></div>
+                                <div class="col-x-12 col-md-5 col-lg-5"><input type="text" name="myName" id="myName" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 col-md-3 col-lg-1 text-right"><label>*E-mail:</label></div>
+                                <div class="col-x-12 col-md-5 col-lg-5"><input type="E-mail" name="myEmail" id="myEmail"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 col-md-3 col-lg-1 text-right"><label>*Experience:</label></div>
+                                <div class="col-x-12 col-md-5 col-lg-5"><textarea name="myComments" id="myComments" rows="2" cols="20"></textarea></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <button class="btn btn-white" type="submit" onclick="formValidate()">Apply Now</button>
+                                </div>
+                            </div>
+                      </form>
+                    </section>
+                </article>
+            </main>
+    </section>
+    <section class="row">
+        <footer class="col-sm-12">
+            <div>Copyright &copy 2018 JavaJam Coffee House</div>
+            <a href="mailto:shreyas@duraphe.com">shreyas@duraphe.com</a>
+        </footer>
+    </section>
+</body>
+</html>
