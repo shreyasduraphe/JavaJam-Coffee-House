@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaJam Home</title>
+    <link rel="stylesheet" type="text/css" href="css\javacoffee.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+     
+</head>
+
+<body id="wrapper">
+    <section class="row">
+        <div id="navContainer" class="col-xs-12 col-md-3 col-lg-2">
+            <img src="images/javajamlogo.jpg" width="100%" alt="">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="music.html">Music</a></li>
+                    <li><a href="jobs.php">Jobs</a></li>
+                    <li><a href="gear.html">Gear</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="col-xs-12 col-md-9 col-lg-10">
+            <section>
+                <header>
+                    <h1>JavaJam Coffee House</h1>
+                </header>
+            </section>
+            <section>
+                <img src="images/sofa.jpg" width="100%" alt="">
+            </section>
+            <article>
+                <section>
+                    <h2 id="menuH2">JavaJam Gear</h2>
+                </section>
+                <section class="menuData">
+                    <p>JavaJam gear  not only liiks good, it's good at your wallet too. </p>
+                    <p>Get a 10% discount when you wear a JavaJam shirt or bring in your JavaJam mug!</p>
+                </section>
+                <section>
+                    <div class="rowGear">
+                        <div class="columnGear">
+                            <img src="images/javashirt.jpg">
+                        </div>
+                        <div class="innerDiv">
+                            <p>JavaJam shirts are comfortable to wear to school and around town. 100% cotton. XL only. $14.95</p>
+                            <form method="post" action="http://www.webdevfoundations.net/scripts/cart.asp" class="gearForm">
+                                <input type="hidden" name="desc1" id="desc1" value="JavaJam Shirt">
+                                <input type="hidden" name="cost1" id="cost1" value="14.95">
+                                <input type="submit" value ="Add to Cart">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="rowGear">
+                        <div class="columnGear">
+                            <img src="images/javamug.jpg">
+                        </div>
+                        <div class="innerDiv">
+                            <p>JavaJam mugs carry a full load of caffeine (12 oz.) to jump to start your morning. $9.95</p>
+                            <form method="post" action="http://www.webdevfoundations.net/scripts/cart.asp" class="gearForm">
+                                <input type="hidden" name="desc2" id="desc2" value="JavaJam Mug">
+                                <input type="hidden" name="cost2" id="cost2" value="14.95">
+                                <input type="submit" value ="Add to Cart">
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </article>
+    </section>
+    <section class="row">
+        <footer class="col-sm-12">
+            <div>Copyright &copy 2018 JavaJam Coffee House</div>
+            <a href="mailto:shreyas@duraphe.com">shreyas@duraphe.com</a>
+        </footer>
+    </section>
+</body>
+</html>
